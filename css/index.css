@@ -102,4 +102,12 @@ a.header-link:hover {
 .search-hidden {
   display: none;
 }
+
+.page-footer {
+  margin: 20px auto;
+  max-width: 100%;
+  color: #ddd;
+  text-align: center;
+  width: 100%;
+}
 /*# sourceMappingURL=index.css.map */
