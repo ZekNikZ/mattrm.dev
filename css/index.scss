@@ -1,0 +1,96 @@
+@import 'palette.scss';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: $bg-blue-dark;
+    word-wrap: break-word;
+    height: 100%;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-box {
+    background: #ddd;
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 30px;
+    width: 668px;
+    border: 0;
+    box-shadow: 0 0 4px 1px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-size: 30px;
+    position: relative;
+    display: inline;
+}
+
+.image {
+    float: right;
+    padding-left: 30px;
+}
+
+.image img {
+    width: 200px;
+    border: 2px black solid;
+    box-shadow: 0 0 5px 0px;
+}
+
+a {
+    color: #222;
+}
+
+a:hover {
+    color: #444;
+}
+
+.page-header {
+    margin: 10px auto;
+    max-width: 100%;
+    padding: 10px 30px;
+    width: 668px;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.title {
+    display: inline-block;
+    font-size: 28px;
+    font-family: 'PT Serif', serif;
+    margin-right: auto;
+    flex-grow: 1;
+}
+
+.nav-links {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: auto;
+    text-align: right;
+    flex-grow: 0;
+    line-height: 28px;
+    padding-top: 8px;
+}
+
+a.header-link {
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+a.header-link:hover {
+    color: #ddd;
+}
+
+.search-box {
+    transition: all 0.5s;
+}
+
+.search-hidden {
+    display: none;
+}
