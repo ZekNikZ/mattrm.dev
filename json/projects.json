@@ -1,0 +1,58 @@
+{
+    "categories": {
+        "ktane": "KTaNE Mods",
+        "games": "Games",
+        "tools": "Tools",
+        "class": "Class Projects",
+        "fun": {
+            "title": "Fun",
+            "corner": "top-right"
+        },
+        "langs": {
+            "title": "Programming Languages",
+            "corner": "bottom-left"
+        },
+        "misc": "Miscellaneous",
+        "unfinished": {
+            "title": "Unfinished",
+            "unselected": true
+        }
+    },
+    "projects": [
+        {
+            "name": "Crossover Modules",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> mod which adds several new modules which are crossovers of two or more of the vanilla modules.",
+            "categories": [ "ktane" ],
+            "remark": "No longer maintained by me. Below is the link to the forked repository.",
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/947348317618211768/A0FE878C64122C335217D6FF5A9DF463481CB952/",
+            "links": {
+                "github": "https://github.com/Timwi/KtaneCrossoverModules",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1649097661"
+            }
+        },
+        {
+            "name": "Mastermind Game",
+            "description": "A Java, Swing-based Mastermind game originally created for the AP Computer Science Principles portfolio project.",
+            "categories": [ "class", "games" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/Mastermind"
+            }
+        },
+        {
+            "name": "Mastermind Game",
+            "description": "A Java, Swing-based Mastermind game originally created for the AP Computer Science Principles portfolio project.",
+            "categories": [ "class", "games" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/Mastermind"
+            }
+        },
+        {
+            "name": "Mastermind Game",
+            "description": "A Java, Swing-based Mastermind game originally created for the AP Computer Science Principles portfolio project.",
+            "categories": [ "class", "games" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/Mastermind"
+            }
+        }
+    ]
+}
