@@ -27,10 +27,11 @@ $.getJSON("json/projects.json", data => {
             class: classString,
             id: "filter-" + c
         }));
-
     }
+    filters["unfinished"] = false;
 
     let idCounter = 0;
+    data.projects.sort((a, b) => a.name.localeCompare(b.name))
     for (let p of data.projects) { 
         let obj = $("<div/>", {
             class: "project" + (p.image ? " project-has-image" : "")
@@ -52,7 +53,7 @@ $.getJSON("json/projects.json", data => {
         // Title
         content.append($("<h3/>", {
             class: "project-title",
-            text: p.name
+            html: p.name
         }));
 
         // Description
@@ -66,6 +67,14 @@ $.getJSON("json/projects.json", data => {
             content.append($("<p/>", {
                 class: "project-remark",
                 text: p.remark
+            }));
+        }
+
+        // Remark
+        if (p.categories.includes("unfinished")) {
+            content.append($("<p/>", {
+                class: "project-remark-unfinished",
+                html: "Note: This project is unfinished. Proceed with caution."
             }));
         }
 
@@ -89,6 +98,13 @@ $.getJSON("json/projects.json", data => {
                             class: "project-link link-steam",
                             href: p.links[l],
                             text: "Steam Workshop"
+                        }));
+                        break;
+                    default:
+                        links.append($("<a/>", {
+                            class: "project-link",
+                            href: p.links[l],
+                            text: l
                         }));
                         break;
                 }

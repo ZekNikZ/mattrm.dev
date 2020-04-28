@@ -31,24 +31,264 @@
             }
         },
         {
-            "name": "Mastermind Game",
-            "description": "A Java, Swing-based Mastermind game originally created for the AP Computer Science Principles portfolio project.",
-            "categories": [ "class", "games" ],
+            "name": "Color Morse",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module requiring a defuser to perform mathematics encoded in Morse code.",
+            "categories": [ "ktane" ],
+            "remark": "No longer maintained by me. Below is the link to the forked repository.",
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/947348317617957471/BB9196A3E577A8552EE859DCD770EC142013B03C/",
             "links": {
-                "github": "https://github.com/ZekNikZ/Mastermind"
+                "github": "https://github.com/Timwi/KtaneColorMorse",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1649012246"
             }
         },
         {
-            "name": "Mastermind Game",
-            "description": "A Java, Swing-based Mastermind game originally created for the AP Computer Science Principles portfolio project.",
-            "categories": [ "class", "games" ],
+            "name": "Ring Cases",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> mod which adds two new circular/ring-shaped bomb casings.",
+            "categories": [ "ktane" ],
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/942841683757333116/1D88EFB2112DF34E4F1CBCEF36383F0614BAE0EF/",
             "links": {
-                "github": "https://github.com/ZekNikZ/Mastermind"
+                "github": "https://github.com/ZekNikZ/KTANE_RingCase",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1614789900"
             }
         },
         {
-            "name": "Mastermind Game",
-            "description": "A Java, Swing-based Mastermind game originally created for the AP Computer Science Principles portfolio project.",
+            "name": "Varicolored Squares",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module which can only be defused by selecting certain colored byttons at different times.",
+            "categories": [ "ktane" ],
+            "remark": "As this module is part of a collection, the full repository is linked below.",
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/108479918413900372/961CB80358B7C39A8F8B5AEA91D0E4412B1D628C/",
+            "links": {
+                "github": "https://github.com/Timwi/KtaneColoredSquares",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=805590147"
+            }
+        },
+        {
+            "name": "Ice Cream",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module which can only be defused by serving your customers their favorite ice cream flavor.",
+            "categories": [ "ktane" ],
+            "remark": "No longer maintained by me. Below is the link to the forked repository.",
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/947348317618583596/D80A5F2FFB7BF9239DA930884EA1AE4A08C21516/",
+            "links": {
+                "github": "https://github.com/Timwi/KtaneIceCream",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1649217354"
+            }
+        },
+        {
+            "name": "Edgework",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module where the defuser must periodically answer question about the edgework of the bomb.",
+            "categories": [ "ktane" ],
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/914674151671305965/30E99920F3E59397DFFDCDD3071AFE7237A9FD2F/",
+            "links": {
+                "github": "https://github.com/ZekNikZ/KTANE_Edgework",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=926122787"
+            }
+        },
+        {
+            "name": "FizzBuzz",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module where the defuser must play a game of FizzBuzz to solve.",
+            "categories": [ "ktane" ],
+            "remark": "No longer maintained by me. Below is the link to the forked repository.",
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/947349322135723272/CB4AB2091DA572A768FDE3E7ED3288BAA30349CC/",
+            "links": {
+                "github": "https://github.com/Timwi/KtaneFizzBuzz",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1659583568"
+            }
+        },
+        {
+            "name": "Boolean Venn Diagram",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module where the defuser must play a game of FizzBuzz to solve.",
+            "categories": [ "ktane" ],
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/914674151671214365/4A0C394FC2F6641BC83E6CD45B84AA71910D13BB/",
+            "links": {
+                "github": "https://github.com/ZekNikZ/KTANE_BooleanVenn",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=952882149"
+            }
+        },
+        {
+            "name": "KTANE Command Line",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> mod which adds a command-line cheat console to the game.",
+            "categories": [ "ktane", "unfinished" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/ktane-command-line"
+            }
+        },
+        {
+            "name": "LEGO",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> module where the defuser must build a LEGO structure to solve it.",
+            "categories": [ "ktane" ],
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/914674289525385196/7CA8D733DB7B3DCB5203BC1A54FBE218445625CE/",
+            "links": {
+                "github": "https://github.com/ZekNikZ/KTANE_LEGO",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1330441838"
+            }
+        },
+        {
+            "name": "Log Viewer Hotkey",
+            "description": "A <em>Keep Talking and Nobody Explodes</em> mod which allows easy log file management.",
+            "categories": [ "ktane" ],
+            "image": "https://steamuserimages-a.akamaihd.net/ugc/914674289525848088/A16E1264185003AAC5FF5CD8F1C4D078C2BE6BB8/",
+            "links": {
+                "github": "https://github.com/ZekNikZ/KTANE_LogfileHotkey",
+                "steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=1358839759"
+            }
+        },
+        {
+            "name": "ResuMaster",
+            "description": "A Java-based Resume Builder which allows easy creation, management, and reviewing of resumes.",
+            "categories": [ "class", "unfinished" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/CSI3471-Resume-Builder",
+                "Website": "http://resume-builder.us.to/"
+            }
+        },
+        {
+            "name": "mattrm.dev",
+            "description": "The code and generation scripts for this website.",
+            "categories": [ "misc" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/mattrm.dev"
+            }
+        },
+        {
+            "name": "B+ Tree Visualizer",
+            "description": "A B+ tree visualization tool akin <a href=\"https://www.cs.usfca.edu/~galles/visualization/BPlusTree.html\">this tool</a>, written in C++.",
+            "categories": [ "class", "tools" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/BPlus_Tree"
+            }
+        },
+        {
+            "name": "ASM Fixer",
+            "description": "A Python script to format Intel x86 assembly source code to a common code and comment style. Built primarily for my Introduction to Computer Systems course.",
+            "categories": [ "tools" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/ASM_Fixer"
+            }
+        },
+        {
+            "name": "Base Converter",
+            "description": "A game to practice quickly converting between binary, octal, decimal, and hexadecimal.",
+            "categories": [ "games", "fun" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/BaseConverterWeb",
+                "Online Version": "http://mattrm.com/BaseConverterWeb/"
+            }
+        },
+        {
+            "name": "Savannah Calculator",
+            "description": "A simple psuedo-scientific calculator whose buttons play sound effects from my friend Savannah.",
+            "categories": [ "fun" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/SavannahCalculator",
+                "Online Version": "http://mattrm.com/SavannahCalculator/"
+            }
+        },
+        {
+            "name": "Uncertainty Calculator",
+            "description": "A simple calculator which can perform simple calculations with quantaties with uncertainties. Originally made for my Physics courses to check my work.",
+            "categories": [ "tools" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/UncertaintyCalculator/",
+                "Online Version": "http://mattrm.com/UncertaintyCalculator/UncertaintyCalculator"
+            }
+        },
+        {
+            "name": "Mario Bros.",
+            "description": "A C++ recreation of the classic game Mario Bros. This was the final project of my Introduction to Computer Science I course.",
+            "categories": [ "games", "class" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/MarioBros",
+                "Baylor Gaming Page": "https://blogs.baylor.edu/baylor_gaming/2018/11/28/mario-bros-recreation/"
+            }
+        },
+        {
+            "name": "Shape Shift",
+            "description": "A simple game where the player must use the ability of different shapes in order to platform through each level. My team's submission in the 2018 Chillenium game jam. The theme was \"transformation\".",
+            "categories": [ "games", "class", "fun" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/ChilleniumGame",
+                "Baylor Gaming Page": "https://blogs.baylor.edu/baylor_gaming/2018/10/19/shape-shift-chillennium-2018/",
+                "itch.io Page": "https://baconrulze.itch.io/shape-shift"
+            }
+        },
+        {
+            "name": "ConvexPy",
+            "description": "An esoteric programming language which was eventually set to succeed my other golfing language <em>Convex</em>.",
+            "categories": [ "langs", "unfinished" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/ConvexPy",
+                "Documentation": "http://mattrm.com/ConvexPy/"
+            }
+        },
+        {
+            "name": "Minecraft \"Byte\" Counter",
+            "description": "A MCEdit plugin/tool to count the amount of \"bytes\" within a Minecraft program. Originally created to standardize byte counting for code golfing competitions.",
+            "categories": [ "tools" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/PPCG_MinecraftByteCounter"
+            }
+        },
+        {
+            "name": "SUPERFIGHT Online",
+            "description": "An online, slimmed down version of the card game SUPERFIGHT, designed for travel play.",
+            "categories": [ "fun" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/SuperfightWeb",
+                "Online Version": "http://mattrm.com/SuperfightWeb/"
+            }
+        },
+        {
+            "name": "Convex",
+            "description": "An stack-based esoteric programming language based on the language CJam, designed for code-golfing competitions.",
+            "categories": [ "langs" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/Convex",
+                "Online Interpreter": "https://tio.run/#convex"
+            }
+        },
+        {
+            "name": "Battleship",
+            "description": "A Python-based console battleship game with cusomizable ship sizes, board layouts, and game rules. My winning submission to the 2017 Agua Fria Union High School District STEM Expo.",
+            "categories": [ "fun", "games" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/STEMExpoBattleship"
+            }
+        },
+        {
+            "name": "Glava",
+            "description": "An esoteric Java dialect designed for code golf competitions.",
+            "categories": [ "langs" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/Glava"
+            }
+        },
+        {
+            "name": "Basic Function Language",
+            "description": "My first step into \"proper\" programming language design. A Python-based basic function programming language (as the name suggests).",
+            "categories": [ "langs" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/BasicFunctionLanguage"
+            }
+        },
+        {
+            "name": "Last Stand",
+            "description": "A Western duel card game that I designed. The GitHub link below is contains the Squib code to generate the cards.",
+            "categories": [ "games" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/LastStand"
+            }
+        },
+        {
+            "name": "Bible Reading Plan Notifier",
+            "description": "A Python script to automatically send emails with Bible verses using a Google Sheets sheet as a database.",
+            "categories": [ "tools" ],
+            "links": {
+                "github": "https://github.com/ZekNikZ/BibleReadingPlanNotifier"
+            }
+        },
+        {
+            "name": "Mastermind",
+            "description": "A Java-based Mastermind recreation. My submission for the AP Computer Science Principles exam Create performance task.",
             "categories": [ "class", "games" ],
             "links": {
                 "github": "https://github.com/ZekNikZ/Mastermind"

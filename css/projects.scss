@@ -178,6 +178,7 @@ $border-rad: 4px;
     margin: 10px;
     border: 2px solid black;
     border-radius: 3px;
+    background-color: black;
 }
 
 .project-title {
@@ -202,6 +203,14 @@ $border-rad: 4px;
     font-style: italic;
     font-size: 14px;
     color: #444;
+}
+
+.project-remark-unfinished {
+    margin: 5px 10px;
+    text-align: justify;
+    font-style: italic;
+    font-size: 14px;
+    color: #E44;
 }
 
 .project-remark::before {
